@@ -1,0 +1,99 @@
+body {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 5vh;
+    background: url(../images2/lastsection.png) no-repeat center;
+    background-size: cover;
+    font-family: janna;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    text-align: center;
+    width: 1140px;
+    max-width: 100%;
+
+}
+
+.main-title-container {
+    border: 1px solid #fff;
+    padding: 10px;
+    width: 50%;
+    margin: auto
+}
+
+.main-title {
+    font-size: 25px !important;
+    font-weight: 700
+}
+
+.main-container span {
+    color: #fff;
+    font-size: 30px
+}
+
+.s-title {
+    margin-left: 10px;
+    color: #fff !important
+}
+
+.content-container {
+    text-align: center;
+    padding: 10px
+}
+
+.content span {
+    margin-top: 16px;
+    display: inline-block
+}
+
+.content div {
+    margin-top: 16px;
+    color: #00b4cb;
+    font-weight: 900;
+    font-size: 35px
+}
+
+.thanks-content {
+    max-width: 100%;
+    height: auto
+}
+
+.button {
+    padding: 10px;
+    background: transparent;
+    text-decoration: none;
+    width: 260px;
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    margin: auto;
+    border: 1px solid #ccc;
+    font-size: 20px;
+}
+
+.button-container {
+    width: 73%;
+    margin: 30px auto
+}
+
+@media (max-width:767px) {
+    .button-container {
+        width: auto;
+        margin: 30px auto
+    }
+
+    .main-title-container {
+        border: 1px solid #fff;
+        padding: 10px;
+        width: 80%;
+        margin: auto
+    }
+    .button {
+        display: block
+    }
+}
